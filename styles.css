@@ -1,0 +1,32 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 30pt;
+
+    margin-bottom: 5pt;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #999999;
+    font-size: 25pt;
+
+    margin-bottom: 5pt;
+}
+
+.coming-soon {
+    color: #9999;
+}
