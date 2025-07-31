@@ -3,10 +3,9 @@ body {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 900;
     margin: 0;
     font-size: 30pt;
-
     margin-bottom: 5pt;
 }
 
@@ -20,11 +19,11 @@ h1 {
 }
 
 .subtitle {
-    font-weight: 700;
+    font-weight: 900;
     color: #999999;
     font-size: 25pt;
 
-    margin-bottom: 5pt;
+    margin-bottom: 15pt;
 }
 
 .coming-soon {
