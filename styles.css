@@ -1,31 +1,56 @@
+:root {
+    --brand-color: #FF991C;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+
+    background-color: var(--brand-color);
 }
 
 h1 {
     font-weight: 900;
     margin: 0;
-    font-size: 30pt;
+    font-size: 4rem;
     margin-bottom: 5pt;
 }
 
 .container {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center; 
+    align-items: baseline;
+
+    width: 60vw;
+
+    padding: 6rem;
 }
 
 .subtitle {
-    font-weight: 900;
-    color: #999999;
+    font-weight: 700;
+    color: black;
     font-size: 25pt;
 
-    margin-bottom: 15pt;
+    margin-bottom: 25pt;
 }
 
-.coming-soon {
-    color: #9999;
+.link-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-bar > a {
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: white;
 }
