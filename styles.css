@@ -68,3 +68,10 @@ a:hover {
 .disabled:hover {
     color: lightslategray;
 }
+
+@media (max-width: 650px) {
+  .container {
+    width: inherit;
+    padding: 3rem;
+  }
+}
