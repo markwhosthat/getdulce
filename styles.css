@@ -73,5 +73,7 @@ a:hover {
   .container {
     width: inherit;
     padding: 3rem;
+
+    padding-right: 4.5rem;
   }
 }
